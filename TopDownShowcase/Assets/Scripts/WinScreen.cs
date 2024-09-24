@@ -20,8 +20,8 @@ public class WinScreen : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log(collision.gameObject.name);
-        //IF I hit a trophy I win
-        if (collision.gameObject.tag == "Trophy")
+        //IF I hit the car I win
+        if (collision.gameObject.tag == "Car")
         {
 
                 SceneManager.LoadScene(levelToLoad);
