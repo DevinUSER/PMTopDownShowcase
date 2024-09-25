@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinScreen : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
     [SerializeField]
-    string levelToLoad = "WinScreen";
+    string levelToLoad = "SecondLevel";
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +21,11 @@ public class WinScreen : MonoBehaviour
     {
         Debug.Log(collision.gameObject.name);
         //IF I hit the car I win
-        if (collision.gameObject.tag == "Car2")
+        if (collision.gameObject.tag == "Car")
         {
 
-                SceneManager.LoadScene(levelToLoad);
-            
+            SceneManager.LoadScene(levelToLoad);
+
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
