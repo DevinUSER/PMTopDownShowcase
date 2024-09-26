@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Car
   - Car2
+  - Start
   layers:
   - Default
   - TransparentFX
