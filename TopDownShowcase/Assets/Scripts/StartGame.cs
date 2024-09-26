@@ -38,7 +38,7 @@ public class StartGame : MonoBehaviour
     public void StartLevel()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(levelToLoad);
     }
 
 }
