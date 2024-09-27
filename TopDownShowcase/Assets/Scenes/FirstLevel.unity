@@ -9370,17 +9370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752097822}
   m_CullTransparentMesh: 1
---- !u!114 &776813918 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4294241894390125803, guid: e2d2a37a4f1c75443b4123355eb91910, type: 3}
-  m_PrefabInstance: {fileID: 2047132412049335639}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1050585149
 GameObject:
   m_ObjectHideFlags: 0
@@ -13515,6 +13504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4294241894390125803, guid: e2d2a37a4f1c75443b4123355eb91910, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: 03d1c6cf851bcef4ba8363d90d5d6f32, type: 3}
     - target: {fileID: 8204446475945274159, guid: e2d2a37a4f1c75443b4123355eb91910, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.17
@@ -13615,7 +13608,7 @@ PrefabInstance:
     - target: {fileID: 7861498281160404611, guid: 7fdef8ece447098489321eb4bfdf6675, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 776813918}
+      objectReference: {fileID: 131285425}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
