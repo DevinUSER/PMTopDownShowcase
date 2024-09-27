@@ -14170,7 +14170,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 645687565712908550, guid: e2d2a37a4f1c75443b4123355eb91910, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Spider
       objectReference: {fileID: 0}
     - target: {fileID: 4294241894390125803, guid: e2d2a37a4f1c75443b4123355eb91910, type: 3}
       propertyPath: m_Sprite
